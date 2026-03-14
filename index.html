@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing:  border-box;
+        }
+        body
+        {
+            background-color:bisque;
+            padding: 20px;
+            font-family:'Franklin Gotic Medium','Arial';
+        }
+        section
+        {
+            max-width: 1000px;
+            margin: auto;
+
+        }
+        h1{
+            font-size: 20px;
+            word-break:break-all;
+        }
+        .row
+        {
+            margin: 8px -16px;
+        }
+        .row, .row>, .column
+        {
+            padding: 8px;
+        } 
+        .column
+        {
+            float: left;
+            width: 25%;
+        }
+        .row::after
+        {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .content
+        {
+            padding: 10px;
+            background-color:cadetblue;
+        }
+        img
+        {
+            width: 100%;
+        }
+        @media screen and (max-width:900px)
+        {
+            .column
+            {     
+            width: 50%;
+            }
+        }
+        @media screen and (max-width:600px)
+        {
+            .column
+            {     
+            width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<section>
+    <h1>asdfghjk</h1>
+    <hr>
+    <h2>asdfghjkl</h2>
+    <div class="row">
+        <div class="column">
+            <div class="content">
+                <a target="blank" href="11.jpg">
+                    <img src="22.jpg">
+                </a>
+                <h3>roijh</h3>
+                <p>ietughpinkfjbnirhtbpigfnbphstgiufjdkm;lbmlrtnjobklmdl</p>
+            </div>
+        </div>
+
+
+
+        <div class="column">
+            <div class="content">
+                <a target="blank" href="11.jpg">
+                    <img src="55.jpg">
+                </a>
+                <h3>ыкщпитжвати</h3>
+                <p>раротшугкрвитдыуптывалтвщтждиажьип</p>
+            </div>
+        </div>
+
+
+
+        <div class="column">
+            <div class="content">
+                <a target="blank" href="11.jpg">
+                    <img src="44.jpg">
+                </a>
+                <h3>цычувскамепир</h3>
+                <p>епинртгоьшлб</p>
+            </div>
+        </div>
+
+
+
+
+        
+            <div class="content">
+                <a target="blank" href="11.jpg">
+                    <img src="33.jpg">
+                </a>
+                <h3>куаамвыи34екавпва</h3>
+                <p>iepojgkdfksdldmfbfbgmb</p>
+            </div>
+        </div>
+
+
+    </div>
+
+<div class="column">
+            <div class="content">
+                <a target="blank" href="11.jpg">
+                    <img src="22.jpg">
+                </a>
+                <h3>ыкщпитжвати</h3>
+                <p>раротшугкрвитдыуптывалтвщтждиажьип</p>
+            </div>
+        </div>
+
+</section>
+</body>
+</html>
